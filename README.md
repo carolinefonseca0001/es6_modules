@@ -208,4 +208,3 @@ If you feel stuck, or would like to see the finished code for this exercise to c
 <!-- - [JavaScript ES6 Modules Exercise Video on Vimeo](https://vimeo.com/743632725) -->
 
 - [JavaScript ES6 Modules Exercise Repo on Github](https://github.com/Bryantellius/es6_modules/tree/answer)
-

@@ -1,19 +1,18 @@
 import { Car } from "./car";
 
 class wishList {
-  constructor(list, nextID) {
+  constructor(list, nextid) {
     this.list = [];
-    this.nextID = 0;
+    this.nextid = 0;
   }
-}
+  add(make, model, year) {
+    let car = new Car(this.nextid++, make, model, year);
+    this.list.push(car);
+  }
 
-function add(make, model, year) {
-  let car = new Car(this.nextId++, make, model, year);
-  this.list.push(car);
-}
-
-function remove(carID) {
-  this.list = this.list.filter((car) => car.id != carId);
+  remove(carid) {
+    this.list = this.list.filter((car) => car.id != carid);
+  }
 }
 
 export default wishList;
